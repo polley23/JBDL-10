@@ -53,8 +53,5 @@ public class UserManager implements UserDetailsService {
             user.setAuthorityList(Arrays.asList(authority));
             userRepository.save(user);
         }
-
-
-
     }
 }
